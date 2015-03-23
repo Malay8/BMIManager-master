@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println("BMI  Manager");
 
-        Patients patients = new Patients(3);
+        Patients patients = new Patients(2);
         running:
         while (true) {
             System.out.println("Please select from the " + "following menu options:\n" +
